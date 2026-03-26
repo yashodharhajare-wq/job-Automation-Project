@@ -19,8 +19,8 @@ Together, these eliminate repetitive steps and streamline the entire workflow.
 Applying to jobs repeatedly involves:
 
 * Copying job details manually
-* Creating folders for each application
-* Editing cover letters
+* Creating folders in defined name for each application
+* Editing repetative things in cover letters (company name, Location, Job title, date etc)
 * Saving documents in proper formats
 * Tracking everything in Excel
 
@@ -36,7 +36,9 @@ This process is:
 
 This project introduces two workflows:
 
-### V1 — Manual Input (Fallback System)
+### V1 — Manual Input (First and Fallback System)
+
+Created for all the job and is first version 
 
 Used when automation is not possible (e.g., non-StepStone websites).
 
@@ -52,7 +54,7 @@ Additionally, utility tools further reduce effort (e.g., Word → PDF macro).
 
 ### Use Case
 
-* Job sites other than StepStone
+* Job sites StepStone and other 
 * When automation is not supported
 
 ### How It Works
@@ -67,7 +69,7 @@ Additionally, utility tools further reduce effort (e.g., Word → PDF macro).
 
 ### What It Does
 
-* Creates structured folder
+* Creates structured folder with predefined name structure
 * Generates cover letter from template
 * Updates Excel tracker
 
@@ -246,7 +248,7 @@ http://localhost:5000
 ## Key Benefits
 
 * Massive reduction in repetitive work
-* Saves **10+ minutes per application**
+* Saves **15+ minutes per application**
 * Reduces mental fatigue significantly
 * Keeps everything structured and consistent
 * Works for both automated and manual scenarios
