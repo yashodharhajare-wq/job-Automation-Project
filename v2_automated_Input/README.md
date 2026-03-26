@@ -1,8 +1,8 @@
-\# Job Application Automation (Browser + Python Integration)
+# Job Application Automation (Browser + Python Integration)
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,19 +14,19 @@ With a single click on a job listing page (only StepStone)through bookmark, job 
 
 
 
-\* Creates a structured folder
+* Creates a structured folder
 
-\* Generates a customized cover letter from Templete
+* Generates a customized cover letter from Templete
 
-\* Updates an Excel tracker
-
-
-
-\---
+* Updates an Excel tracker
 
 
 
-\## Why This Exists (Problem)
+---
+
+
+
+## Why This Exists (Problem)
 
 
 
@@ -34,13 +34,13 @@ While applying for jobs, the process was repetitive:
 
 
 
-\* Copy company name, role, location, job link manually
+* Copy company name, role, location, job link manually
 
-\* Create folders with predefined name structure
+* Create folders with predefined name structure
 
-\* Edit cover letters (again company name, job title, location, date)
+* Edit cover letters (again company name, job title, location, date)
 
-\* Track everything in Excel (same above data)
+* Track everything in Excel (same above data)
 
 
 
@@ -48,11 +48,11 @@ Even with a Python script earlier, it still required a little manual input.
 
 
 
-\---
+---
 
 
 
-\## Key Idea
+## Key Idea
 
 
 
@@ -64,29 +64,29 @@ Using browser \*\*Inspect (DOM analysis)\*\*, a custom bookmark (JavaScript) was
 
 
 
-\* Read job details from the webpage
+* Read job details from the webpage
 
-\* Send them automatically to a Python backend
-
-
-
-\---
+* Send them automatically to a Python backend
 
 
 
-\## Solution Architecture
+---
 
 
 
-\### Flow
+## Solution Architecture
 
 
 
-1\. Open job listing (e.g., StepStone)
+### Flow
 
-2\. Click custom bookmark
 
-3\. Bookmark script extracts:
+
+1. Open job listing (e.g., StepStone)
+
+2. Click custom bookmark
+
+3. Bookmark script extracts:
 
 
 
@@ -98,13 +98,13 @@ Using browser \*\*Inspect (DOM analysis)\*\*, a custom bookmark (JavaScript) was
 
 &#x20;  \* Job link
 
-4\. Sends data to local server (`localhost:5000`)
+4. Sends data to local server (`localhost:5000`)
 
-5\. Python server processes everything
+5. Python server processes everything
 
 
 
-\---
+---
 
 
 
