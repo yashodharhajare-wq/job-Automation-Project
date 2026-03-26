@@ -1,4 +1,4 @@
-# Job Application Automation (Browser + Python Integration)
+# Job Application Automation (Browser + Python Integration) - V2 Automated input
 
 ## Overview
 
@@ -14,14 +14,14 @@ With a single click on a job listing page (only StepStone), job details are extr
 
 ## Why This Exists (Problem)
 
-While applying for jobs, the process was repetitive:
+While applying for jobs, the process was repetitive for me:
 
-* Copy company name, role, location manually
-* Create folders
+* Copy company name, job title, location and job Link manually
+* Create folders with predetermined name
 * Edit cover letters
 * Track everything in Excel
 
-Even with a Python script, it still required manual input.
+Even with a Python script which I have developed before, it still required manual input.
 
 ---
 
@@ -31,7 +31,7 @@ Instead of typing details manually, extract them directly from the job page.
 
 Using browser **Inspect (DOM analysis)**, a custom bookmark (JavaScript) was created to:
 
-* Read job details from the webpage
+* Read job details from the stepstone webpage
 * Send them automatically to a Python backend
 
 ---
@@ -40,7 +40,7 @@ Using browser **Inspect (DOM analysis)**, a custom bookmark (JavaScript) was cre
 
 ### Flow
 
-1. Open job listing (e.g., StepStone)
+1. Open job listing (StepStone)
 2. Click custom bookmark
 3. Bookmark script extracts:
 
@@ -102,12 +102,17 @@ Main logic:
 
 ```id="m1uxh9"
 project-root/
-│── data/
+├── data/
+│   └── (generated folders + generated cover letters inside)
+│   └── application_tracker.xlsx
+│
 │── templates/
 │   └── cover_letter_template.docx
 │
-│── server.py
-│── start_server.bat
+├── V1_manual/
+│   ├── main.py
+│   └── run_main.bat
+│   └── README.md
 ```
 
 ---
@@ -164,8 +169,14 @@ Behind the scenes:
 
 ```id="9zzp0z"
 StepStone Page → Click Bookmark → Python Server → Files Created
+
 ```
 
+## Important Note
+
+* The **main body of the cover letter should always be tailored** for each company and job role
+* This system is designed to **support and accelerate** the process, not replace thoughtful customization
+ 
 ---
 
 ## Notes
@@ -177,11 +188,18 @@ StepStone Page → Click Bookmark → Python Server → Files Created
 
 ---
 
+## Limitations
+
+* Automation currently works only for StepStone
+* Bookmark depends on website structure (DOM)
+* Server must be running for automation
+
+---
+
 ## Future Improvements
 
 * Support multiple job portals (LinkedIn, Indeed)
 * Add browser extension (instead of bookmark)
-* Add UI dashboard
 * PDF auto-generation
 * Cloud deployment
 
