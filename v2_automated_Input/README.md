@@ -59,13 +59,13 @@ Using browser **Inspect (DOM analysis)**, a custom bookmark (JavaScript) was cre
 
 
 
-&#x20;  * Company
+&#x20; * Company
 
-&#x20;  * Job title
+&#x20; * Job title
 
-&#x20;  * Location
+&#x20; * Location
 
-&#x20;  * Job link
+&#x20; * Job link
 
 4. Sends data to local server (`localhost:5000`)
 
