@@ -143,6 +143,20 @@ File System + Excel + Word Automation
 ```id="projstruct"
 project-root/
 │
+├── data/
+│   └── (generated folders + generated cover letters inside)
+│   └── application_tracker.xlsx
+│
+├── project_demo/
+│   └── project_demo.mp4
+│
+├── templates/
+│   └── cover_letter_template.docx
+│
+├── Tools/
+│   └── export-to-pdf_macro.bas
+│   └── README.md
+│
 ├── V1_manual/
 │   ├── main.py
 │   └── run_main.bat
@@ -152,20 +166,6 @@ project-root/
 │   ├── server.py
 │   └── start_server.bat
 │   └── README.md
-│
-├── templates/
-│   └── cover_letter_template.docx
-│
-├── data/
-│   └── (generated folders + excel tracker)
-│   └── application_tracker.xlsx
-│
-├── Tools/
-│   └── export-to-pdf_macro.bas
-│   └── README.md
-│
-├── project_demo/
-│   └── project_demo.mp4
 │
 └── README.md
 ```
