@@ -144,19 +144,26 @@ project-root/
 ├── V1_manual/
 │   ├── main.py
 │   └── run_main.bat
+│   └── README.md
 │
 ├── V2_automation/
 │   ├── server.py
 │   └── start_server.bat
+│   └── README.md
 │
 ├── templates/
 │   └── cover_letter_template.docx
 │
 ├── data/
 │   └── (generated folders + excel tracker)
+│   └── application_tracker.xlsx
 │
-├── macros/
-│   └── export-to-pdf.bas
+├── Tools/
+│   └── export-to-pdf_macro.bas
+│   └── README.md
+│
+├── project_demo/
+│   └── project_demo.mp4
 │
 └── README.md
 ```
