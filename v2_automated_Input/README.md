@@ -109,9 +109,9 @@ project-root/
 │── templates/
 │   └── cover_letter_template.docx
 │
-├── V1_manual/
-│   ├── main.py
-│   └── run_main.bat
+├── V2_automated_input/
+│   ├── server.py
+│   └── run_server.bat
 │   └── README.md
 ```
 
