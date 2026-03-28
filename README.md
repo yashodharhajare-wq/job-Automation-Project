@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a automation system designed to reduce time, effort, and mental fatigue during job applications.
+
 for demo click on this link - https://github.com/yashodharhajare-wq/job-Automation-Project/blob/main/project_demo/project_demo.mp4
 
 It combines:
